@@ -23,6 +23,14 @@ public class Human {
         private boolean haveChildr = false;
 
 
+        public String getName() {
+            return name;
+        }
+
+        public int getYearOfBirth() {
+            return yearOfBirth;
+        }
+
         public Builder(String name, int yearOfBirth) {
             this.name = name;
             this.yearOfBirth = yearOfBirth;

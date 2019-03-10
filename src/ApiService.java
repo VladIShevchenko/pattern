@@ -1,7 +1,8 @@
 public class ApiService {
-    private static ApiService instance;
-
+    private static ApiService instance=null;
+    public String s;
     private ApiService() {
+        s = "Singleton class";
     }
 
 
